@@ -1,0 +1,41 @@
+.main {
+    min-height: 100vh;
+}
+.notas{
+    min-height: 100vh;
+}
+.nota{
+    width: 300px;
+    box-shadow: 15px 13px 13px -6px rgba(0, 0, 0, 0.72);
+    border-radius: 8px;
+    border-top: 5px solid #ddba0c;
+    
+}
+textarea{
+    width: 100%;
+    border: none;
+    resize: none;
+    
+}
+textarea:focus{
+    outline: none;
+}
+.btn-plus {
+    box-shadow: 8px 13px 13px -6px rgba(0, 0, 0, 0.72);
+   
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+.dropdown-toggle::after{
+    content: none;
+}
+.bg_nota{
+    background-color: #fff6cb;
+}
